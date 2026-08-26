@@ -1,0 +1,348 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "aiops-tools",
+  "owner": {
+    "name": "Wei Zhou",
+    "email": "zhouwei008@gmail.com",
+    "url": "https://github.com/AIops-tools"
+  },
+  "description": "Governed infrastructure ops for self-hosted and mid-sized estates: every state change is audited through the same path from MCP and CLI, with undo tokens and a runaway budget breaker.",
+  "plugins": [
+    {
+      "name": "ai-guardian",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/AI-Guardian"
+      },
+      "description": "Governed local-LLM observability: model policy, prompt scanner, capture proxy, 21 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "ai-guardian"
+      ]
+    },
+    {
+      "name": "cicd-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/CICD-AIops"
+      },
+      "description": "Governed self-managed GitLab + Gitea CI/CD ops: pipelines, runners, artifacts, RCA. 28 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "cicd"
+      ]
+    },
+    {
+      "name": "ceph-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Ceph-AIops"
+      },
+      "description": "Governed Ceph mgr ops: HEALTH_WARN RCA, OSD/PG/pool/RBD/CephFS/RGW, 37 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "ceph"
+      ]
+    },
+    {
+      "name": "compliance-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Compliance-AIops"
+      },
+      "description": "Compliance evidence from AIops audit trails: HIPAA/PCI/SOC2/GDPR, OSCAL export, 19 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "compliance"
+      ]
+    },
+    {
+      "name": "container-host-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Container-Host-AIops"
+      },
+      "description": "Governed Docker + Portainer container-host ops: reads, RCA analyses, guarded writes. 38 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "container-host"
+      ]
+    },
+    {
+      "name": "endpoint-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Endpoint-AIops"
+      },
+      "description": "Governed managed-endpoint ops — login-storm & drift analysis, 13 MCP tools with audit/budget/undo.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "endpoint"
+      ]
+    },
+    {
+      "name": "fabric-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Fabric-AIops"
+      },
+      "description": "Governed Cisco Meraki fabric ops: uplink RCA, health score, drift; 34 tools with audit/undo.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "fabric"
+      ]
+    },
+    {
+      "name": "firewall-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Firewall-AIops"
+      },
+      "description": "Governed OPNsense + pfSense firewall ops: rules, NAT, VPN, DHCP, RCA. 35 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "firewall"
+      ]
+    },
+    {
+      "name": "identity-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Identity-AIops"
+      },
+      "description": "Governed Keycloak + authentik identity ops: users, events, clients, MFA, RCA. 29 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "identity"
+      ]
+    },
+    {
+      "name": "inference-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Inference-AIops"
+      },
+      "description": "Governed GPU inference ops (vLLM + Ray Serve): latency RCA, scaling, drain, 39 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "inference"
+      ]
+    },
+    {
+      "name": "k8s-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/K8s-AIops"
+      },
+      "description": "Governed Kubernetes ops — 55 MCP tools with audit, budget, undo, risk-tier audit labels.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "k8s"
+      ]
+    },
+    {
+      "name": "minio-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/MinIO-AIops"
+      },
+      "description": "Governed MinIO ops: capacity RCA, exposure audit, ILM, WORM retention, IAM, healing, 48 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "minio"
+      ]
+    },
+    {
+      "name": "monitoring-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Monitoring-AIops"
+      },
+      "description": "Governed SolarWinds Orion + PRTG + Zabbix ops: SWQL, alert rollup, health, 42 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "mysql-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/MySQL-AIops"
+      },
+      "description": "Governed MySQL/MariaDB DBA ops: slow-query, lock-wait, replication & fragmentation RCA; 35 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "mysql"
+      ]
+    },
+    {
+      "name": "network-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Network-AIops"
+      },
+      "description": "Governed network device ops (NAPALM) — 33 MCP tools with audit/undo.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "network"
+      ]
+    },
+    {
+      "name": "nutanix-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Nutanix-AIops"
+      },
+      "description": "Governed Nutanix Prism Central v4 ops: clusters/VMs/storage/DR/LCM/RCA, ETag-safe, 51 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "nutanix"
+      ]
+    },
+    {
+      "name": "observability-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Observability-AIops"
+      },
+      "description": "Governed Prometheus + Grafana ops: PromQL, alerts, dashboards, RCA; 39 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "observability"
+      ]
+    },
+    {
+      "name": "postgres-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Postgres-AIops"
+      },
+      "description": "Governed PostgreSQL DBA ops: slow-query RCA, bloat/vacuum & blocking-lock analysis; 35 MCP tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "postgres"
+      ]
+    },
+    {
+      "name": "proxmox-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Proxmox-AIops"
+      },
+      "description": "Governed Proxmox VE VM/container ops — 43 MCP tools with audit, budget, undo & risk-tier guards.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "proxmox"
+      ]
+    },
+    {
+      "name": "proxy-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Proxy-AIops"
+      },
+      "description": "Governed Traefik + Caddy + HAProxy ops: routes, upstreams, certs, 5xx RCA. 28 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "proxy"
+      ]
+    },
+    {
+      "name": "queue-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Queue-AIops"
+      },
+      "description": "Governed redis + rabbitmq ops: memory/latency/backlog/churn RCA, policies. 28 tools.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "queue"
+      ]
+    },
+    {
+      "name": "truenas-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/TrueNAS-AIops"
+      },
+      "description": "Governed TrueNAS SCALE storage ops — 25 MCP tools with audit, budget, undo guards.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "truenas"
+      ]
+    },
+    {
+      "name": "veeam-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/Veeam-AIops"
+      },
+      "description": "Governed Veeam Backup & Replication ops — 25 MCP tools with audit, budget, undo guards.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "veeam"
+      ]
+    },
+    {
+      "name": "xcpng-aiops",
+      "source": {
+        "source": "github",
+        "repo": "AIops-tools/XCPng-AIops"
+      },
+      "description": "Governed XCP-ng ops via Xen Orchestra — 29 MCP tools with audit, budget, undo guards.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "xcpng"
+      ]
+    }
+  ]
+}
