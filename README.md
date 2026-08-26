@@ -1,4 +1,3 @@
-<!-- mcp-name: io.github.AIops-tools/marketplace -->
 # AIops-tools plugin marketplace
 
 Governed infrastructure ops for self-hosted and mid-sized estates. Each plugin
