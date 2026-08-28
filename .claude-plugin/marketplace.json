@@ -11,8 +11,8 @@
     {
       "name": "ai-guardian",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/AI-Guardian"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/AI-Guardian.git"
       },
       "description": "Governed local-LLM observability: model policy, prompt scanner, capture proxy, 21 tools.",
       "keywords": [
@@ -25,8 +25,8 @@
     {
       "name": "cicd-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/CICD-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/CICD-AIops.git"
       },
       "description": "Governed self-managed GitLab + Gitea CI/CD ops: pipelines, runners, artifacts, RCA. 28 tools.",
       "keywords": [
@@ -39,8 +39,8 @@
     {
       "name": "ceph-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Ceph-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Ceph-AIops.git"
       },
       "description": "Governed Ceph mgr ops: HEALTH_WARN RCA, OSD/PG/pool/RBD/CephFS/RGW, 37 tools.",
       "keywords": [
@@ -53,8 +53,8 @@
     {
       "name": "compliance-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Compliance-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Compliance-AIops.git"
       },
       "description": "Compliance evidence from AIops audit trails: HIPAA/PCI/SOC2/GDPR, OSCAL export, 19 tools.",
       "keywords": [
@@ -67,8 +67,8 @@
     {
       "name": "container-host-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Container-Host-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Container-Host-AIops.git"
       },
       "description": "Governed Docker + Portainer container-host ops: reads, RCA analyses, guarded writes. 38 tools.",
       "keywords": [
@@ -81,8 +81,8 @@
     {
       "name": "endpoint-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Endpoint-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Endpoint-AIops.git"
       },
       "description": "Governed managed-endpoint ops — login-storm & drift analysis, 13 MCP tools with audit/budget/undo.",
       "keywords": [
@@ -95,8 +95,8 @@
     {
       "name": "fabric-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Fabric-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Fabric-AIops.git"
       },
       "description": "Governed Cisco Meraki fabric ops: uplink RCA, health score, drift; 34 tools with audit/undo.",
       "keywords": [
@@ -109,8 +109,8 @@
     {
       "name": "firewall-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Firewall-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Firewall-AIops.git"
       },
       "description": "Governed OPNsense + pfSense firewall ops: rules, NAT, VPN, DHCP, RCA. 35 tools.",
       "keywords": [
@@ -123,8 +123,8 @@
     {
       "name": "identity-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Identity-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Identity-AIops.git"
       },
       "description": "Governed Keycloak + authentik identity ops: users, events, clients, MFA, RCA. 29 tools.",
       "keywords": [
@@ -137,8 +137,8 @@
     {
       "name": "inference-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Inference-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Inference-AIops.git"
       },
       "description": "Governed GPU inference ops (vLLM + Ray Serve): latency RCA, scaling, drain, 39 tools.",
       "keywords": [
@@ -151,8 +151,8 @@
     {
       "name": "k8s-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/K8s-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/K8s-AIops.git"
       },
       "description": "Governed Kubernetes ops — 55 MCP tools with audit, budget, undo, risk-tier audit labels.",
       "keywords": [
@@ -165,8 +165,8 @@
     {
       "name": "minio-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/MinIO-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/MinIO-AIops.git"
       },
       "description": "Governed MinIO ops: capacity RCA, exposure audit, ILM, WORM retention, IAM, healing, 48 tools.",
       "keywords": [
@@ -179,8 +179,8 @@
     {
       "name": "monitoring-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Monitoring-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Monitoring-AIops.git"
       },
       "description": "Governed SolarWinds Orion + PRTG + Zabbix ops: SWQL, alert rollup, health, 42 tools.",
       "keywords": [
@@ -193,8 +193,8 @@
     {
       "name": "mysql-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/MySQL-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/MySQL-AIops.git"
       },
       "description": "Governed MySQL/MariaDB DBA ops: slow-query, lock-wait, replication & fragmentation RCA; 35 tools.",
       "keywords": [
@@ -207,8 +207,8 @@
     {
       "name": "network-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Network-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Network-AIops.git"
       },
       "description": "Governed network device ops (NAPALM) — 33 MCP tools with audit/undo.",
       "keywords": [
@@ -221,8 +221,8 @@
     {
       "name": "nutanix-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Nutanix-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Nutanix-AIops.git"
       },
       "description": "Governed Nutanix Prism Central v4 ops: clusters/VMs/storage/DR/LCM/RCA, ETag-safe, 51 tools.",
       "keywords": [
@@ -235,8 +235,8 @@
     {
       "name": "observability-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Observability-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Observability-AIops.git"
       },
       "description": "Governed Prometheus + Grafana ops: PromQL, alerts, dashboards, RCA; 39 tools.",
       "keywords": [
@@ -249,8 +249,8 @@
     {
       "name": "postgres-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Postgres-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Postgres-AIops.git"
       },
       "description": "Governed PostgreSQL DBA ops: slow-query RCA, bloat/vacuum & blocking-lock analysis; 35 MCP tools.",
       "keywords": [
@@ -263,8 +263,8 @@
     {
       "name": "proxmox-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Proxmox-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Proxmox-AIops.git"
       },
       "description": "Governed Proxmox VE VM/container ops — 43 MCP tools with audit, budget, undo & risk-tier guards.",
       "keywords": [
@@ -277,8 +277,8 @@
     {
       "name": "proxy-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Proxy-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Proxy-AIops.git"
       },
       "description": "Governed Traefik + Caddy + HAProxy ops: routes, upstreams, certs, 5xx RCA. 28 tools.",
       "keywords": [
@@ -291,8 +291,8 @@
     {
       "name": "queue-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Queue-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Queue-AIops.git"
       },
       "description": "Governed redis + rabbitmq ops: memory/latency/backlog/churn RCA, policies. 28 tools.",
       "keywords": [
@@ -305,8 +305,8 @@
     {
       "name": "truenas-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/TrueNAS-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/TrueNAS-AIops.git"
       },
       "description": "Governed TrueNAS SCALE storage ops — 25 MCP tools with audit, budget, undo guards.",
       "keywords": [
@@ -319,8 +319,8 @@
     {
       "name": "veeam-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/Veeam-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Veeam-AIops.git"
       },
       "description": "Governed Veeam Backup & Replication ops — 25 MCP tools with audit, budget, undo guards.",
       "keywords": [
@@ -333,8 +333,8 @@
     {
       "name": "xcpng-aiops",
       "source": {
-        "source": "github",
-        "repo": "AIops-tools/XCPng-AIops"
+        "source": "url",
+        "url": "https://github.com/AIops-tools/XCPng-AIops.git"
       },
       "description": "Governed XCP-ng ops via Xen Orchestra — 29 MCP tools with audit, budget, undo guards.",
       "keywords": [
