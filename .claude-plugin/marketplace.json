@@ -233,6 +233,20 @@
       ]
     },
     {
+      "name": "olvm-aiops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIops-tools/OLVM-AIops.git"
+      },
+      "description": "Governed OLVM / oVirt 4.5 ops — 17 MCP tools with audit and budget guards.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "olvm"
+      ]
+    },
+    {
       "name": "observability-aiops",
       "source": {
         "source": "url",
