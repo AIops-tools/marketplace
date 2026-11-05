@@ -23,6 +23,34 @@
       ]
     },
     {
+      "name": "apache-aiops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Apache-AIops.git"
+      },
+      "description": "Governed Apache HTTP Server operations — 17 MCP tools with audit.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "apache"
+      ]
+    },
+    {
+      "name": "bind9-aiops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIops-tools/BIND9-AIops.git"
+      },
+      "description": "Governed BIND 9 DNS operations — 23 MCP tools with audit.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "bind9"
+      ]
+    },
+    {
       "name": "cicd-aiops",
       "source": {
         "source": "url",
@@ -118,6 +146,20 @@
         "mcp",
         "governance",
         "firewall"
+      ]
+    },
+    {
+      "name": "harbor-aiops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Harbor-AIops.git"
+      },
+      "description": "Governed Harbor registry operations — 39 MCP tools with audit.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "harbor"
       ]
     },
     {
