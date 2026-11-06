@@ -399,6 +399,66 @@
         "governance",
         "xcpng"
       ]
+    },
+    {
+      "name": "symantec-clouddlp-aiops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Symantec-CloudDLP-AIops.git"
+      },
+      "description": "Governed Symantec Cloud DLP — 14 MCP tools, read-only with audit.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "symantec",
+        "clouddlp"
+      ]
+    },
+    {
+      "name": "symantec-dcs-aiops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Symantec-DCS-AIops.git"
+      },
+      "description": "Governed Symantec DCS operations — 35 MCP tools, read-only with audit.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "symantec",
+        "dcs"
+      ]
+    },
+    {
+      "name": "symantec-edr-aiops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Symantec-EDR-AIops.git"
+      },
+      "description": "Governed Symantec on-prem EDR — 20 MCP tools, read-only with audit.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "symantec",
+        "edr"
+      ]
+    },
+    {
+      "name": "symantec-ztna-aiops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIops-tools/Symantec-ZTNA-AIops.git"
+      },
+      "description": "Governed Symantec ZTNA operations — 40 MCP tools, read-only with audit.",
+      "keywords": [
+        "aiops",
+        "mcp",
+        "governance",
+        "symantec",
+        "ztna"
+      ]
     }
   ]
 }
